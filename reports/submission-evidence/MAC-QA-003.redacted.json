@@ -1,0 +1,69 @@
+{
+  "format": "QA Automation Studio redacted evidence",
+  "sourceSha256": "3c365c4bf3da93667f56ba0b8e9446cecd79a6bf3d9324c6f7f9761d43291f13",
+  "projectId": "macro-studio",
+  "tcId": "MAC-QA-003",
+  "runId": "TEXT-20261109T020318417-c5dbcd7f19cd4cc0aa5a2b1b0f5d7163",
+  "scenarioId": "MAC-NP-003",
+  "started": "2026-11-09T02:03:18.4173205+00:00",
+  "finished": "2026-11-09T02:03:24.7309497+00:00",
+  "result": "PASS",
+  "expected": "",
+  "actual": "",
+  "assertion": "MAC-NP-003: MacroStudio OFF verified; baseline == empty; successful F3 KEYDOWN/KEYUP; no output observed for >= 2000ms after trigger; same focused document/read method throughout",
+  "expectation": "NoOutputWhileMacroOff",
+  "observedNoOutputMilliseconds": 2603,
+  "trigger": "F3",
+  "directOutputKeyDispatched": false,
+  "triggerCalls": [
+    {
+      "At": "2026-11-09T02:03:21.5757524+00:00",
+      "Events": [
+        "VK 0x72 KEYDOWN",
+        "VK 0x72 KEYUP"
+      ],
+      "Requested": 2,
+      "Inserted": 2,
+      "Win32Error": 0
+    }
+  ],
+  "sameDocumentAndReader": true,
+  "observations": [
+    {
+      "At": "2026-11-09T02:03:21.0190513+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:03:21.0221675+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:03:21.593415+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:03:22.265767+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:03:22.9424427+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:03:23.5675658+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:03:24.1971298+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    }
+  ],
+  "macroOffVerified": true
+}

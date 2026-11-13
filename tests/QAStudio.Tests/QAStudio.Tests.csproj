@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType></PropertyGroup><ItemGroup><ProjectReference Include="../../src/QAStudio.Infrastructure/QAStudio.Infrastructure.csproj" /><ProjectReference Include="../../src/QAStudio.Adapters/QAStudio.Adapters.csproj" /></ItemGroup></Project>

@@ -1,0 +1,151 @@
+{
+  "format": "QA Automation Studio redacted evidence",
+  "sourceSha256": "d1c499711180454348b42315182d1cc05cc0d0769994d553d530442cd10cd182",
+  "projectId": "macro-studio",
+  "tcId": "MAC-QA-002",
+  "runId": "TEXT-20261109T014455758-553d458912cc45239845ab02e9f505af",
+  "scenarioId": "MAC-NP-002",
+  "started": "2026-11-09T01:44:55.7588177+00:00",
+  "finished": "2026-11-09T01:44:59.9045487+00:00",
+  "result": "PASS",
+  "expected": "ff",
+  "actual": "ff",
+  "assertion": "MAC-NP-002: baseline == empty; actual == \"ff\"; unchanged for >= 2000ms; same focused document/read method throughout",
+  "trigger": "F3",
+  "directOutputKeyDispatched": false,
+  "triggerCalls": [
+    {
+      "At": "2026-11-09T01:44:57.5550477+00:00",
+      "Events": [
+        "VK 0x72 KEYDOWN",
+        "VK 0x72 KEYUP"
+      ],
+      "Requested": 2,
+      "Inserted": 2,
+      "Win32Error": 0
+    }
+  ],
+  "sameDocumentAndReader": true,
+  "observations": [
+    {
+      "At": "2026-11-09T01:44:57.5487494+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:57.5503811+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:57.5819005+00:00",
+      "Text": "f",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:57.6986041+00:00",
+      "Text": "f",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:57.8066076+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:57.917321+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.0275703+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.1377133+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.2481898+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.3583417+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.4681085+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.5798371+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.6893606+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.7994806+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:58.9099635+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.0205045+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.1305986+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.2411886+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.3515494+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.4619053+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.5726048+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.6827135+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.7935181+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T01:44:59.9043672+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    }
+  ]
+}

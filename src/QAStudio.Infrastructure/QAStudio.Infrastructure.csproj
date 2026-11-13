@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../QAStudio.Application/QAStudio.Application.csproj" />
+    <EmbeddedResource Include="SuitabilitySeed.tsv" LogicalName="QAStudio.SuitabilitySeed.tsv" />
+    <EmbeddedResource Include="ManualReadiness.tsv" LogicalName="QAStudio.ManualReadiness.tsv" />
+  </ItemGroup>
+</Project>

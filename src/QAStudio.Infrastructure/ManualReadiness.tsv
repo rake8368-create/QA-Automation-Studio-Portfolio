@@ -1,0 +1,71 @@
+macro-studio	AUD-001	10BDDF47BEEDB057B789EA2A7AA3FF3B7A83DB72B2C042DF608C56FBAB741C0A	HarnessRequired	고정 TimeProvider로 05:00과 04:59를 주입하고 SpeechText.Format 문자열을 비교해야 합니다.
+macro-studio	AUD-002	B801684637C429787CAD4E8C5ABF93E3C0CB69D0B47D1CF069196D8E9DA76532	HarnessRequired	사용자 정의 {분}/{초} 포맷에 03:59를 주입해 치환 및 미치환 토큰을 비교해야 합니다.
+macro-studio	AUD-003	51635FE9EF11FE1A989E0D363066754BE136412C8EC6C1784835805F26717E5B	HarnessRequired	미지원 토큰을 옵션 검증기에 전달하고 거부 여부를 직접 확인해야 합니다.
+macro-studio	AUD-004	2A717C992E17E4F89E3F9A7FBEAFE56105B7F93132406D096871CC0CC9193D1A	HarnessRequired	SpeechRate 검증기에 -6, -5, 5, 6을 전달하여 경계 안팎의 결과를 비교해야 합니다.
+macro-studio	AUD-005	F09AD514290AFA1913FC5C84A7C1AE8511C1F75B96175A2ACBCCA8E8057A5D48	ReviewRequired	v6.3 QA의 이벤트 설정에서 사용자 WAV 가져오기 경로가 확인되지 않았습니다. 대상 버전과 음원 저장·중복 정책을 확인해야 합니다.
+macro-studio	AUD-006	8A191AC1370F7A0261E8429FED0AF69F1F3AD5AD13F2B280B3CB00140B9D0605	ReviewRequired	v6.3 QA의 이벤트 설정에서 사용자 MP3 가져오기 경로가 확인되지 않았습니다. 대상 버전과 미디어 검증 기능을 확인해야 합니다.
+macro-studio	AUD-007	9A6119D799436BF9FA3A5FD0050A27271957DB38EE64606C9FFA02F35D91D07E	HarnessRequired	음원 검증기에 상대 경로와 루트 경로를 직접 전달하고 전용 폴더 이탈 거부를 확인해야 합니다.
+macro-studio	AUD-008	6DCB30E32D2D5C5FCA27895A31FEFEF17D68E622BA5625D0AEE13D9BC7F68756	HarnessRequired	FakeAudio로 알림 4개를 공급하고 재생 순서, 누락 및 최대 동시 재생 수를 계측해야 합니다.
+macro-studio	AUD-009	D9BA7DD861E0824B716C0341827B23F14AF9EC8EE364605C9C768640342590C8	HarnessRequired	FakeAudio에서 첫 재생을 유지한 채 게임 이탈을 주입하고 진행 중 재생과 대기열을 검사해야 합니다.
+macro-studio	AUD-010	8C1ADB7D74ABF80B29CACBF05DF72E1DDB0CA12A11F5537190558606D0AE4D73	ReviewRequired	v6.3 QA에서 사용자 BossClip 및 로컬 TTS 대체 경로가 확인되지 않았습니다. 기능과 호출 수 관찰 경로를 먼저 확정해야 합니다.
+macro-studio	AUD-011	D620AF9AD0C9684C5DCA21843B07DF1BB5CE13DD71DEE981DD9AA62124ACBF29	HarnessRequired	오디오 백엔드에 예외를 주입하고 모의 입력으로 매크로 반복 및 중지를 독립적으로 관찰해야 합니다.
+macro-studio	AUD-012	69D8E0A4D7E4CA5782F50624B3B82A25C6968863367888F9C18F1ACF6FBE3676	ReviewRequired	한국어 SAPI 음성과 출력 장치가 필요합니다. v6.3 QA 설정의 알림음 테스트에서 로컬 TTS 합성·중지 기능은 확인되지 않았습니다.
+macro-studio	AUD-013	1407DA14F203E30FFD253E217EB5B08276F068F351169236912E8C078930EF52	HarnessRequired	격리 설정 저장소에 v1 파일을 공급해 로드 후 기존 필드와 새 TTS 기본값을 직접 비교해야 합니다.
+macro-studio	EVT-001	3331DE5810EB6BB106D7B4BF397C2D79A0530EDB7D585E1E40CE9F1D2D66C865	HarnessRequired	알림 시간 GUI 컨트롤이 범위를 제한하므로 옵션 검증기에 0, 1, 5, 6을 직접 공급해야 합니다.
+macro-studio	EVT-002	668FFB1C9707148A9B49585E61831D5969DE9E2442A441BA26FC7E77D893EF42	HarnessRequired	FakeClock과 고정 이벤트 일정으로 정확히 5분 전 선택 여부를 재현해야 합니다.
+macro-studio	EVT-003	3042BCC209707F5D4DBF21DD2377D4AB875FC2FAEA8A1908A5AF1C1A1C69DEBE	HarnessRequired	FakeClock을 정확히 1초 전진시키고 04:59 카운트다운 값을 비교해야 합니다.
+macro-studio	EVT-004	327CA2E3124CC2085975814168821A81D8FF74B737E30A399BE8BA45BBF54042	HarnessRequired	FakeClock으로 시작 시각에 정확히 도달시킨 뒤 선택 결과가 0건인지 확인해야 합니다.
+macro-studio	EVT-005	A87D0991F9EC1704FB26E6E5662061E51B6B160F2A757CE42AB565244E06B254	HarnessRequired	고정 캐시와 FakeClock으로 11분 경과를 재현하고 오래된 일정의 재사용 여부를 검사해야 합니다.
+macro-studio	EVT-006	80A7823591C1B04DD5D76F68C4C8EA5C45454C0CCB76031671A52B852771E491	HarnessRequired	HttpMock으로 HTTP 403을 반환하고 재시도 호출 수와 오류 판정을 확인해야 합니다.
+macro-studio	EVT-007	598F51F5CD94B7691D410158E2A006227FC372E924F48580ED64777984B68E0F	HarnessRequired	HttpMock으로 Retry-After가 있는 429를 반환하고 재시도 분류 및 1시간 대기값을 비교해야 합니다.
+macro-studio	EVT-008	B7AA890ACC1748951E1544BBB960BDD367F589991AA4FBF5230E35651FDD6419	HarnessRequired	헤더 반환 후 본문만 멈추는 HTTP 모의 전송과 제한 시간 계측이 필요합니다.
+macro-studio	EVT-009	349C4E2E1FFFCCF4A85C438A0C334F313A2E743EEA28BEC06FE956FAC760DBFD	HarnessRequired	고정 시각과 HttpMock의 Date 헤더로 2분 경계를 제어해야 합니다.
+macro-studio	EVT-010	393C2983B9AD05C1B4AC31308764521308EB15C777D4134AB960E53F4FBF834C	HarnessRequired	파서에 NULL 및 시각대 누락 JSON을 직접 공급하고 잘못된 일정이 거부되는지 확인해야 합니다.
+macro-studio	EVT-011	B3CB11D771E631289C8845EA8151390735B858813BEBCAFEC222778BFC456922	HarnessRequired	모의 공급자 실패와 재시도를 제어하며 이벤트 생성 여부와 실패 상태를 검사해야 합니다.
+macro-studio	EVT-012	FDF35AB81AE4B31E7EC752E364541F730608F9D8B4DC188355952296D3C2AEB9	HarnessRequired	WinForms TestHost에서 활성 게임 상태를 전환하고 Overlay와 Sound.Stop 호출을 함께 관찰해야 합니다.
+macro-studio	EVT-013	7623F2D8CCA3D128EC83BAB9F9484D6D50135DBB130053A98BC17C16DCFCB832	HarnessRequired	WinForms TestHost에서 이탈·복귀 후 동일 오버레이 인스턴스 및 알림음 호출 수를 확인해야 합니다.
+macro-studio	EVT-014	88457DAD5D4B6450B1C3C34CFBAB1760049549864EEDDF8DB8D4AF7D6F0C7A3D	HarnessRequired	제어된 HWND, Win32 스타일 및 HitTest로 클릭·포커스 투과를 확인해야 합니다.
+macro-studio	EVT-015	790876FC57631B05DF529E99476AAE0783B18D7DD25EA6182898A829880D3857	HarnessRequired	음수 좌표와 DPI 조합을 배치 계산기에 주입해야 동일한 경계 검증을 반복할 수 있습니다.
+macro-studio	EVT-016	1073C46BA1DAE709C1B8593CDDC3E8974DE2E52B5636E725ABD4034FD908B7EF	HarnessRequired	WinForms TestHost로 40회 생성·해제하고 GDI/USER 핸들 수와 허용치를 비교해야 합니다.
+macro-studio	EVT-017	8E03B79C3C3FA4F1F1C500CFECF6BE42D5AD0F748CEA1DB8A5C5D39C3DBF3C6A	HarnessRequired	이벤트 OFF 뒤 내부 타이머, 공급자 조회 및 오버레이가 모두 중지됐는지 계측해야 합니다.
+macro-studio	IMP-GUI-20261028-001	3A301C4C489BAF5ED5FFD094D91A32640C4823DA9336175C2FF43C395D1EB83E	ReviewRequired	비교 대상 화면과 필수 컨트롤·초기값의 승인 기준이 원본에 명시되지 않았습니다.
+macro-studio	MAC-001	FA3C4A1958EDC5CC0F2F3F4EF82BFB674FEFD217B2D2343C876B9957B402F724	EnvironmentRequired	별도 설정으로 새 인스턴스를 시작해 OFF 표시를 확인하고 안전한 대상 창 및 입력 관찰 도구로 감시·출력 부재를 확인해야 합니다.
+macro-studio	MAC-002	CF8BB203F8CE7C014A332B74FD9FAF98B0DE9113A320F4420852DE408CB478DF	HarnessRequired	ON 조작 후 후크 설치와 자동 DOWN 0회를 함께 확인하려면 입력 이벤트를 계측할 수 있는 TestHost가 필요합니다.
+macro-studio	MAC-003	DB427EF67A907A0A08FBA4EAD9227FA08ECFCB7899EB9F737038757A7EF7F971	HarnessRequired	OFF에서 메모장 무출력만으로 엔진 정지와 가상 입력 0회를 함께 판정하기 어려워 모의 입력 및 엔진 관찰이 필요합니다.
+macro-studio	MAC-004	F0542D026815F70113EE3CF0E30769B7A6B1C5445D20E04815CCD84E61E9FBF2	HarnessRequired	모의 전송기로 DOWN·UP 각 1회와 실행 종료 뒤 잔여 DOWN 부재를 확인해야 합니다.
+macro-studio	MAC-005	08193AD51CCF15AB06CBB45B20B23978FDBDBCDDC5707609AE0146C8E93DA109	HarnessRequired	80ms 홀드 중 예약 4건을 제어된 시점에 공급하여 5회 직렬 실행 및 중첩 여부를 확인해야 합니다.
+macro-studio	MAC-006	A72B2B75C6294B541BB3AEADFB59345DFE1D78774E89154FA85C9D06A0B9BAD3	HarnessRequired	1초 홀드 중 예약 32건을 주입하고 Accepted 및 PendingCycles=32를 직접 확인해야 합니다.
+macro-studio	MAC-007	3A7AE6D219A2D94A1A3497ABC5C44AD1FF41BA8E8388A00B83FC969F119373C5	HarnessRequired	대기열에 32건을 채운 뒤 33번째 요청의 Full 응답과 잔여 대기열을 검사해야 합니다.
+macro-studio	MAC-008	0F240861061277A61CE01CB61F6141E393BF8EF6C8066B084222CC65F10F4C4E	HarnessRequired	포커스 이탈 시점과 마지막 KeyUp의 순서 및 즉시 종료를 입력 계측으로 검증해야 합니다.
+macro-studio	MAC-009	464AFF6EE998A132AB4268517F617D2559557A6726F912B617F4117FF0E06BB1	EnvironmentRequired	무해한 대상 창과 전경 전환 환경에서 정지 상태를 재현하고 새 트리거 없이 복귀한 뒤 새 DOWN 및 재실행 여부를 관찰해야 합니다.
+macro-studio	MAC-010	4A24C3C2411A0D9B269F35AEEC03410D9FAD73CFE8424F28793A422EA94FC2E4	HarnessRequired	정밀하게 제어한 트리거 KeyUp 후 출력 UP 시점과 잔여 대기열을 함께 관찰해야 합니다.
+macro-studio	MAC-011	EDA115A45F06F8539F35082699E399F66684052D5CB6DD90B8EEB6CEE59AE502	HarnessRequired	트리거 해제 이후까지 80ms 홀드가 유지되는지 정밀 입력 계측으로 확인해야 합니다.
+macro-studio	MAC-012	466ADD3EEF5A34D6B207C9A1D45531AD8A336C1AA3106ABFB6288F013EF07249	HarnessRequired	실행 중 예약 1건을 채우고 좌클릭 취소 후 예약 0건 및 출력 UP을 확인해야 합니다.
+macro-studio	MAC-013	685C6C2580614DD9DC6EEC90639092E42A8843C741CF73EE717EE7C47078F973	HarnessRequired	가상 전송기의 UP 예외를 주입해 복구 전 새 DOWN이 차단되는지 확인해야 합니다.
+macro-studio	MAC-014	2748D9D6A763ADCE4DAEFC53C437FCAC31F3B6A7D4A0246968B776CA1A289C42	HarnessRequired	가상 전송 스레드를 블로킹하고 Stop 실패 및 중복 실행 차단을 계측해야 합니다.
+macro-studio	MAC-015	8BDD6440A3E68ED4F81E0E14999AAA822D8BF3A4FD0841C1E35ADB4255870919	HarnessRequired	24회 트리거를 제어하고 DOWN·UP 이벤트를 각각 집계해야 합니다.
+macro-studio	MAC-016	824018511BD3D2A4B48F0B62DCE2078319C171CAB3F8BDF78ED4F83D803A0FF6	GuiManual	같은 Windows 세션에서 QA EXE를 두 번 열어 중복 실행 안내와 첫 인스턴스 유지를 확인할 수 있습니다.
+macro-studio	MAC-017	67245AF95FBA5FDE7C1CDEFCBE88E1A905C5D847654F7B9F1D526BFD701B1065	HarnessRequired	A·B 전환 시 모든 DOWN/UP의 정확한 순서와 예약 취소를 모의 입력으로 기록해야 합니다.
+macro-studio	MAC-018	CA9459C6BD2E58C8177D611F833FD3A2C6D223F7BF7F0B678E52572FA7C2571A	EnvironmentRequired	좌클릭 반복 테스트 프로필과 안전한 대상 창이 필요합니다. 설정 보정과 짧은 반복의 중단 여부를 확인해야 합니다.
+macro-studio	PRO-001	0BC450B33808E448F17F803E68B37702195FFD196C31B1CC5BE5892D14757860	EnvironmentRequired	격리 프로필에서 빈 이름이 거부되고 설정 파일이 생성되지 않는지 디렉터리와 함께 확인해야 합니다.
+macro-studio	PRO-002	DBD17037EA33BF14322256B6B1CA33DD8A8A359D62C2FE2AFA09B1E741BBB6FF	EnvironmentRequired	v6.3의 1~50자 검증 대상인 매크로 이름을 1·50·51자로 구성한 격리 프로필과 가져오기 결과를 비교해야 합니다.
+macro-studio	PRO-003	951F0FC8685E1A0BB826DA020BDE9FE771A99470314E08A71C23B061E938EF3A	EnvironmentRequired	편집 컨트롤이 0ms 입력을 보정하므로 0ms·1ms .d4repeat 사본을 가져와 검증 메시지를 비교해야 합니다.
+macro-studio	PRO-004	270BE203AFC5A7A4418B4E3BD69312628122338C97DC064A09EBF3110AA1D0D7	EnvironmentRequired	60000ms·60001ms 값의 .d4repeat 사본으로 UI 보정과 별개로 가져오기 허용·거부를 비교해야 합니다.
+macro-studio	PRO-005	9960089F21D91FF7B4FE012298089CA6718D8B6E2647D17F07D44CD7E58DE4B5	EnvironmentRequired	-1·0·10000·10001ms의 .d4repeat 파일을 격리해 가져오기 허용·거부를 확인해야 합니다.
+macro-studio	PRO-006	6F08A831C1333A07F2D4EED3883623514925855E36999AE96E8E14A891B44B7F	EnvironmentRequired	4096·4097개 이벤트가 든 유효 .d4repeat 파일을 준비해 가져오기 결과를 비교해야 합니다.
+macro-studio	PRO-007	DB3152BE231283C0351841C61A2B4890CB57248730EFF0C2B47F02F71271AFE2	EnvironmentRequired	대응 DOWN이 없는 UP 이벤트를 담은 .d4repeat 파일을 격리 가져오기 화면에서 검증해야 합니다.
+macro-studio	PRO-008	A5A2A1B3334934377E7DF824566FC74051C14817338CD3F42E893629C03D7083	EnvironmentRequired	UP이 누락된 시퀀스 파일을 가져와 거부 및 저장 파일 미생성을 확인해야 합니다.
+macro-studio	PRO-009	6753827D4220AAC89216BC05231933FDEB84C6270814C644F7F63125C797671E	EnvironmentRequired	이미 DOWN인 키에 Hold가 중첩된 .d4repeat 파일로 거부 메시지를 확인해야 합니다.
+macro-studio	PRO-010	049EF42915832A7AACB1D539856778BB1A8259F51EB96F3439B91082838FBD51	EnvironmentRequired	0ms 토글 시퀀스 파일을 가져와 유효성 거부를 확인해야 합니다. 반복 입력 실행은 필요하지 않습니다.
+macro-studio	PRO-011	BA78981BE618C206C47FDB58AA92396A2B2E7B2FD34FD6D14332CBB3EF836276	EnvironmentRequired	유효 JSON인 정확히 4MB 파일과 4MB+1B 파일을 준비해 가져오기 한도를 비교해야 합니다.
+macro-studio	PRO-012	BBFE4C9FBDBE7BD2A0695DE6083A7D3C8FDE4006306F06A69F03D237BCC63D5E	HarnessRequired	격리된 저장소의 Save 경로에 이탈 이름을 전달하고 경계 외부 파일 생성 여부를 계측해야 합니다.
+macro-studio	PRO-013	6B73BE496D0EC6D96B6B5967437C280482C393F64670327E6786ED193D283801	EnvironmentRequired	FormatVersion=999인 .d4repeat 사본을 준비하고 가져오기에서 미지원 버전 오류를 확인해야 합니다.
+macro-studio	PRO-014	0C895DE99D018817259139951899E6E4227C650F2BE5986CC40513871D0915A4	EnvironmentRequired	실제 v4·v5 형식 샘플과 원래 트리거 의미가 필요하며, 로드 결과의 모드·지연·이벤트를 비교해야 합니다.
+macro-studio	PRO-015	017A803A93AB4D6D11630DB5C28A816C3E66E745B04439370EF9A1D0F42E8D12	EnvironmentRequired	동일 F8 트리거를 가진 매크로 두 개의 격리 프로필로 중복 거부 메시지를 확인해야 합니다.
+macro-studio	PRO-016	BBEC2DCC0940AB1CBE1B5B74069AB7F22D1523DE509A7F1F8F6E107409C82FDF	EnvironmentRequired	서로 다른 트리거 24개와 25개를 담은 유효 테스트 프로필 파일로 가져오기 상한을 확인해야 합니다.
+macro-studio	PRO-017	47323C607BC8F340BB3FB0447A46152303965102532539A8DF1DF17EEF2D2A99	EnvironmentRequired	650ms OncePerPress 테스트 설정과 임시 프로필 경로에서 저장·복원 후 모드·이벤트·시간을 비교해야 합니다.
+qa-studio	QAT-001	9CFF76E5856B4932AA9EBDD154D9F09B798B859639A1F82573B4651196D792E4	GuiManual	QA Studio의 Excel TC 가져오기 미리보기에서 원본 ID·기법·절차·기대 결과의 매핑을 비교할 수 있습니다.
+qa-studio	QAT-002	2B3E7C0BC90D00BB957698ECDD445049225475684C2B8D21962A7855CE3B57D3	HarnessRequired	검증 조건이 빠진 AutomationDefinition을 주입해 READY 상태 승격을 거부하는지 상태를 검사해야 합니다.
+qa-studio	QAT-003	17E985AC951ED1363C1C93F27878B3E0E62C9EF37220E62EC0FBF6EAB84E151B	GuiManual	QA Studio GUI에서 패키지를 내보낸 뒤 실행 이력 없는 TC의 NOT RUN 및 PASS 집계를 확인할 수 있습니다.
+qa-studio	QAT-004	D45F3D9D9576EE875A7D751C80B2B1B276E4D78625B7FE231AF1835892A95492	ReviewRequired	AI 생성·승인 기능이 구현돼 있지 않아 승인 이력과 실행 차단의 검증 대상 기능을 먼저 확정해야 합니다.
+qa-studio	QAT-005	2A662EAD8C5794F41DB1E43345B1F56C2CFBFFCCA4D0CB1D305693B5EBFB5203	HarnessRequired	취소 가능한 격리 어댑터를 제어하고 CANCELLED·ERROR·FAIL 분류 및 증적을 확인해야 합니다.

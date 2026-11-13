@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/QA.AutomationStudio.Desktop/QA.AutomationStudio.Desktop.csproj" />
+    <Project Path="src/QAStudio.Domain/QAStudio.Domain.csproj" />
+    <Project Path="src/QAStudio.Application/QAStudio.Application.csproj" />
+    <Project Path="src/QAStudio.Infrastructure/QAStudio.Infrastructure.csproj" />
+    <Project Path="src/QAStudio.Adapters/QAStudio.Adapters.csproj" />
+    <Project Path="src/QAStudio.Presentation.WinForms/QAStudio.Presentation.WinForms.csproj" />
+  </Folder>
+  <Folder Name="/tests/"><Project Path="tests/QAStudio.Tests/QAStudio.Tests.csproj" /></Folder>
+</Solution>

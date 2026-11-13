@@ -1,0 +1,199 @@
+{
+  "format": "QA Automation Studio redacted evidence",
+  "sourceSha256": "86bcd0b05428841510a6bec3c9ad98692402192048b2c7e94ccb52ae8e9c60d6",
+  "projectId": "macro-studio",
+  "tcId": "MAC-QA-005",
+  "runId": "TEXT-20261110T015547431-8237dbcebb52432584bead182d384396",
+  "scenarioId": "MAC-NP-005",
+  "started": "2026-11-10T01:55:47.4313393+00:00",
+  "finished": "2026-11-10T01:55:53.837168+00:00",
+  "result": "PASS",
+  "expected": "ff",
+  "actual": "ff",
+  "assertion": "MAC-NP-005: baseline == empty; actual == \"ff\"; unchanged for >= 2000ms; same focused document/read method throughout; first successful F3 -> exact f -> second successful F3 -> exact ff; single-F profile; two separate triggers",
+  "expectation": "TwoSingleFTriggers",
+  "observedNoOutputMilliseconds": 0,
+  "completedTriggers": 2,
+  "stabilizedMilliseconds": 2091,
+  "trigger": "F3",
+  "directOutputKeyDispatched": false,
+  "triggerCalls": [
+    {
+      "At": "2026-11-10T01:55:50.3026253+00:00",
+      "Events": [
+        "VK 0x72 KEYDOWN",
+        "VK 0x72 KEYUP"
+      ],
+      "Requested": 2,
+      "Inserted": 2,
+      "Win32Error": 0
+    },
+    {
+      "At": "2026-11-10T01:55:51.701182+00:00",
+      "Events": [
+        "VK 0x72 KEYDOWN",
+        "VK 0x72 KEYUP"
+      ],
+      "Requested": 2,
+      "Inserted": 2,
+      "Win32Error": 0
+    }
+  ],
+  "sameDocumentAndReader": true,
+  "observations": [
+    {
+      "At": "2026-11-10T01:55:49.0086647+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:49.011489+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:50.3281914+00:00",
+      "Text": "f",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:50.3412022+00:00",
+      "Text": "f",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:51.7435641+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:51.8527903+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:51.9633392+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.0729242+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.1831592+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.2930803+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.4033265+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.513736+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.6237842+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.7402395+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.850339+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:52.9534623+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.0639226+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.1741702+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.2843834+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.3944492+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.5046319+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.6150675+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.7260463+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-10T01:55:53.8368561+00:00",
+      "Text": "ff",
+      "Reader": "UIA.ValuePattern"
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "eventName": "trigger-attempt",
+      "at": "2026-11-10T01:55:49.0125757+00:00"
+    },
+    {
+      "stage": 1,
+      "eventName": "trigger-completed",
+      "at": "2026-11-10T01:55:50.3040719+00:00"
+    },
+    {
+      "stage": 1,
+      "eventName": "exact-f-observed",
+      "at": "2026-11-10T01:55:50.3281914+00:00",
+      "observedText": "f"
+    },
+    {
+      "stage": 2,
+      "eventName": "trigger-attempt",
+      "at": "2026-11-10T01:55:50.3415629+00:00"
+    },
+    {
+      "stage": 2,
+      "eventName": "trigger-completed",
+      "at": "2026-11-10T01:55:51.7015075+00:00"
+    },
+    {
+      "stage": 2,
+      "eventName": "exact-ff-observed",
+      "at": "2026-11-10T01:55:51.7435641+00:00",
+      "observedText": "ff"
+    }
+  ]
+}

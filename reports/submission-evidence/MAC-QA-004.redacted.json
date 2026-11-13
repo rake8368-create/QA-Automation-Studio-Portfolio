@@ -1,0 +1,59 @@
+{
+  "format": "QA Automation Studio redacted evidence",
+  "sourceSha256": "710ce59fe50f145ac101d12843216b8e3e313f8948cd36d9362a902a54343c53",
+  "projectId": "macro-studio",
+  "tcId": "MAC-QA-004",
+  "runId": "TEXT-20261109T023059649-e31fdd3c69af48c48f51f5f3614f7378",
+  "scenarioId": "MAC-NP-004",
+  "started": "2026-11-09T02:30:59.6492268+00:00",
+  "finished": "2026-11-09T02:31:10.1649372+00:00",
+  "result": "PASS",
+  "expected": "",
+  "actual": "",
+  "assertion": "MAC-NP-004: MacroStudio ON / target restriction / foreground mismatch verified; baseline == empty; successful F3 KEYDOWN/KEYUP; no output observed for >= 2000ms after trigger; same focused document/read method throughout",
+  "expectation": "NoOutputWhileTargetMismatch",
+  "observedNoOutputMilliseconds": 3472,
+  "trigger": "F3",
+  "directOutputKeyDispatched": false,
+  "triggerCalls": [
+    {
+      "At": "2026-11-09T02:31:05.0988285+00:00",
+      "Events": [
+        "VK 0x72 KEYDOWN",
+        "VK 0x72 KEYUP"
+      ],
+      "Requested": 2,
+      "Inserted": 2,
+      "Win32Error": 0
+    }
+  ],
+  "sameDocumentAndReader": true,
+  "observations": [
+    {
+      "At": "2026-11-09T02:31:01.7849069+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:31:01.7868434+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:31:05.1146118+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:31:06.9061242+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    },
+    {
+      "At": "2026-11-09T02:31:08.5896697+00:00",
+      "Text": "",
+      "Reader": "UIA.ValuePattern"
+    }
+  ],
+  "targetRestrictionVerified": true
+}

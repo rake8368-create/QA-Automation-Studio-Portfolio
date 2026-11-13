@@ -1,0 +1,421 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Public portfolio files by exact file bytes",
+  "self_excluded": "PUBLIC_MANIFEST.json",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 81,
+      "sha256": "b2866cfadcf4ee9e743fd6fc6c575cf7abc0c62695468213c7be5d5d5316a118",
+      "classification": "build-and-config"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 607,
+      "sha256": "26b9e59160c61ab33cf1de202665002f78fb882e5f6393f755070789046e2d6d",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "Directory.Build.props",
+      "bytes": 323,
+      "sha256": "e10f7f23fa68c19c3c0684e860d98b0f67759b284e76a7aa0b39b71ae5ced0c9",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "NuGet.Config",
+      "bytes": 74,
+      "sha256": "9508cae5f76364f56e80eb97cb16493977243cf38e5cca6284e3d74f83b20a2c",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "QAStudio.slnx",
+      "bytes": 635,
+      "sha256": "c4a8db9f63382b82aac7cff59813d195d4e0389734f16355dbced998fd23b6ae",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6825,
+      "sha256": "ce0d4524587048c3c08f8518fd8f1e653e3eda24fde451ba960c0a459acd1f7d",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "config/portfolio-import.json",
+      "bytes": 2088,
+      "sha256": "e97bf7762d03c7421aad3466182f70a17e59c547731af9be8d936585efb314fe",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1377,
+      "sha256": "a2b68210e1a349a2f24b0b8398ebeb0792a949b19c3a73a157860c421c5016c0",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "docs/EVIDENCE_INTEGRITY.md",
+      "bytes": 946,
+      "sha256": "406fb027494fa17c346c9c3fe27347a699182b27d2a308f1ce90204bd70f4237",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "docs/EXECUTION_RESULTS.md",
+      "bytes": 1297,
+      "sha256": "7318f53e678bce82db4c0b25035ca44c0453c4ec310c44c089e1c290b4fcd48e",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "docs/MANUAL_READINESS.md",
+      "bytes": 976,
+      "sha256": "d8a2adb58478ff6c29800012919cb63e9c2bbf6d6e10fc749dedde5f4482157b",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "docs/TEST_DESIGN.md",
+      "bytes": 945,
+      "sha256": "38b514716bff96cd149a5be0e829c04c331601bc863a7ff2884c3a52f6391b31",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "reports/screenshots/Automation_Mapping.png",
+      "bytes": 78254,
+      "sha256": "9120d5cc85550242c7ab94b0066848c78bd8a708aeec3b2f37ef779b02ba37e8",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/screenshots/WinForms_Main.png",
+      "bytes": 495111,
+      "sha256": "8d9af9d05d1fd060f0f60917184932202c304f19a17982aa888da44ede4d19bf",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/submission-evidence/INDEX.md",
+      "bytes": 3464,
+      "sha256": "8a54171e2055d464c3280acbe0a59094ea6a5d054e3d89aaf8eed62803aada07",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "reports/submission-evidence/MAC-QA-001.redacted.json",
+      "bytes": 3483,
+      "sha256": "f4f257e93aa82e7a05ae514fcc827b10f470a71e8dd2b69468e466bff8caa8ca",
+      "classification": "redacted-e2e-evidence"
+    },
+    {
+      "path": "reports/submission-evidence/MAC-QA-002.redacted.json",
+      "bytes": 3739,
+      "sha256": "89f94a0919a906bee5cd2572b88f725c90eec3b2d42e9937969ac8576138b936",
+      "classification": "redacted-e2e-evidence"
+    },
+    {
+      "path": "reports/submission-evidence/MAC-QA-003.redacted.json",
+      "bytes": 1907,
+      "sha256": "c48f44cb12da1c4b8a3f12804b519adb6b5002674b16fe5f030502e6fc952307",
+      "classification": "redacted-e2e-evidence"
+    },
+    {
+      "path": "reports/submission-evidence/MAC-QA-004.redacted.json",
+      "bytes": 1736,
+      "sha256": "e6d3823d69ffe64b1ebed8cf8a05715c882ab48178fbadb56139c7c45c8a74bc",
+      "classification": "redacted-e2e-evidence"
+    },
+    {
+      "path": "reports/submission-evidence/MAC-QA-005.redacted.json",
+      "bytes": 4967,
+      "sha256": "d80b235b623a2ea2d6a33ed40b0301967435d387a15e40593460a9411e4dbd05",
+      "classification": "redacted-e2e-evidence"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/AutomationMappingForm.cs",
+      "bytes": 6252,
+      "sha256": "41a206bb1861fcb78bc15c20cd8f193f771f20b0ccfb824ed8059d5432069812",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/DesktopImportSession.cs",
+      "bytes": 7254,
+      "sha256": "a8e6acc4b31137b37d5982094f06a2da06784f323bacc89a1bc6e38e02d8cc66",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/ImportPreviewForm.cs",
+      "bytes": 11012,
+      "sha256": "8d72bbc8dc484d5566bcd24ab5479cd56ab89916c7e579b0ebce28b8c6470b0a",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/ImportVerification.cs",
+      "bytes": 7402,
+      "sha256": "6463d8f6eefe9df308a57389dacc2de0895efb430c1c629895c6a68113b7afba",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/MainForm.cs",
+      "bytes": 32320,
+      "sha256": "38d1d539653f76a68d89eee38d1855c9807417d822393065876e7dbb23c48a3e",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/ManualRunForm.cs",
+      "bytes": 10444,
+      "sha256": "d73dcf8d8bbfdfcce1a070c875897af710ef767ecb4c23dffc255d5a3b43b6ae",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/NotepadTextProbe.cs",
+      "bytes": 36266,
+      "sha256": "b59094ae26a8b9255ca52ab801e75d26d1e51cf59355ecb0e3f7473f83aa33ae",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/NotepadVerificationForm.cs",
+      "bytes": 10513,
+      "sha256": "3191aa0972c0df050633a4db87ce44dd08309b4763b49464ffd91f0a7d30d282",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/Program.cs",
+      "bytes": 952,
+      "sha256": "eeaefd16b78d7447c1aa21a437e8ede3b0fea1c8a633c25ac187ad5b06c93bf1",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/QA.AutomationStudio.Desktop.csproj",
+      "bytes": 1003,
+      "sha256": "5149dce4bf4e5a486146f1b489b44a604a6ef5956a9e2aab0288d44c745f835a",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/TargetProcessForm.cs",
+      "bytes": 5098,
+      "sha256": "d0c9e171b2819fcad6ed7951ecf131755367341e0f5e79cf9d26cd8a4a272a83",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QA.AutomationStudio.Desktop/WindowsTriggerInput.cs",
+      "bytes": 6487,
+      "sha256": "72805b654963d0e08b6a4a8dd7965d691a0b93a19b14160049bf6cc628c8f430",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Adapters/ProcessWindowAdapter.cs",
+      "bytes": 12222,
+      "sha256": "1461c04a42beb91a32f73ed9948b73a9ccf077cd334ae4a65bad8a82a070b936",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Adapters/QAStudio.Adapters.csproj",
+      "bytes": 149,
+      "sha256": "c4161f6a22f7fa8a6b075e0fc557440a49a97ab8eb87cb99c6f09cff1810f138",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Adapters/WorkbookAdapter.ResultPackage.cs",
+      "bytes": 17299,
+      "sha256": "8df972e6cb3d0b4cce332e51384285cdcb7c46db9a4a52db4d4c7863c5126340",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Adapters/WorkbookAdapter.cs",
+      "bytes": 15514,
+      "sha256": "d74dcc22f02edd1640c02e7fb2b47339df546050e006c813a6b609823e4d9f30",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Application/Contracts.cs",
+      "bytes": 2676,
+      "sha256": "0703f66a0c0d599f1bb8043952c1c4bdcdb7b7a87dc107f5d2125f266116e640",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Application/LaunchSmokeOrchestrator.cs",
+      "bytes": 2997,
+      "sha256": "f2eef78a1806b762f39ca16d9022e8532c70391116c491b028eedfcdd6cb0551",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Application/ManualExecutionRecorder.cs",
+      "bytes": 2952,
+      "sha256": "dbda2161fc29e69e6cd7aa351df03383a534f45e49a1eea71ae0b5e414271236",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Application/QAStudio.Application.csproj",
+      "bytes": 139,
+      "sha256": "39a6677d65fbd9b052a709b527ee2f12879558f55a79d5a1cc635ae9e6f54604",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Application/ResultPackageExporter.cs",
+      "bytes": 16430,
+      "sha256": "8c19597073fa39c377dcf3578dc2854f8ec93bbdb4bef3bda6ed540513122b59",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Application/SingleTextOrchestrator.cs",
+      "bytes": 20651,
+      "sha256": "675473ec3417ecfb14df34e226c17d5a0d0574de3a3a154f5caf7cc08624855f",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Domain/Entities.cs",
+      "bytes": 4914,
+      "sha256": "5a2512153fc4190b3b7c6bfd6b23c129ed1245048131bc46962036036ed58b74",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Domain/ManualTesting.cs",
+      "bytes": 4890,
+      "sha256": "26f500c340b90d2721d7b0f16b01c1af4f54e3e81a2d46e55c681a5a37ab5f36",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Domain/QAStudio.Domain.csproj",
+      "bytes": 36,
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Infrastructure/FoundationStore.ManualReadiness.cs",
+      "bytes": 2358,
+      "sha256": "f42b2f7a088778c25fddf8d429cd3474f2c78cb49779bc2f58a4dd351d973135",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Infrastructure/FoundationStore.ManualTesting.cs",
+      "bytes": 6038,
+      "sha256": "c8aa93d40b0ec3e65f02dded29765d1d80e15e3814479941f6b55e12af4c8aca",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Infrastructure/FoundationStore.cs",
+      "bytes": 21343,
+      "sha256": "1fb35fe6ddf478dca5e514bfe844727c90b20939a214aa31f29cf350856e9c1f",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Infrastructure/ManualReadiness.tsv",
+      "bytes": 16196,
+      "sha256": "1788554b44253c13b0bbf6a29a4ea240504f94c3dd86fef295b1f53fa71b6944",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Infrastructure/QAStudio.Infrastructure.csproj",
+      "bytes": 364,
+      "sha256": "0383218b3f5c8a27bb2b7375071f080013308ba009c5a22fe4ce83b5d0e0b95c",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Infrastructure/SqliteDatabase.cs",
+      "bytes": 6609,
+      "sha256": "330f6948e333f73059918acaac78497516a2d3a88aea5c665b0bcb02ae433a26",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Infrastructure/SuitabilitySeed.tsv",
+      "bytes": 27609,
+      "sha256": "cb681043ac9f49ac1476df57b41b588649feb9cce6e3d396709272a4df2bf665",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Presentation.WinForms/FoundationComposition.cs",
+      "bytes": 971,
+      "sha256": "640b7c760f4f79720fd58a1533f1ed51d10aea6c783705e8188f4668dcb55b4f",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "src/QAStudio.Presentation.WinForms/QAStudio.Presentation.WinForms.csproj",
+      "bytes": 351,
+      "sha256": "1f5681c45141ada793b11fd68b6edc7a15ff34eda04970de4b12aa3ad30e94f2",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "start.cmd",
+      "bytes": 319,
+      "sha256": "7baa4ac2c8e0af3c7540118c6957ba9109edb056987f1a41584388523e69c627",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "test-data/QAStudio_Manual_TestCases_71_EN.xlsx",
+      "bytes": 47507,
+      "sha256": "230bfabca2a8c64683bd7f041d56f99c7dbdc45a175ffb273ce568bb9b085324",
+      "classification": "reviewed-test-design-workbook"
+    },
+    {
+      "path": "test-data/QA_Automation_Portfolio_TC_70.xlsx",
+      "bytes": 31005,
+      "sha256": "339ae15e0dd56544ad158cb6abdc4ae0c930c8e9f566da60e292c3a3f0641e42",
+      "classification": "reviewed-test-design-workbook"
+    },
+    {
+      "path": "tests/QAStudio.Tests/Day11Checks.cs",
+      "bytes": 13419,
+      "sha256": "e38b241c08a663e2e4f6f1e5907322ad38fedd2fb91505e479a748b36ffab4e8",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/Day7Checks.cs",
+      "bytes": 13458,
+      "sha256": "eee6340ca28b1873aa505c65783d23956ebf4e16192cf05f5dcfcf7e4ff2a53c",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/Day8Checks.cs",
+      "bytes": 12163,
+      "sha256": "356f0ab41f8197fe4b84e0352e17305b9de48c7ee044fc2c79db0a3db2eed5f9",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/Day9Checks.cs",
+      "bytes": 13521,
+      "sha256": "e4a238f754aff40c1dddf13b13a400ef9851e5f231250ce9f5ada672313e90b6",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/ManualSprintChecks.cs",
+      "bytes": 9832,
+      "sha256": "ee5fb0cbf6728f44359d5a1640b969bdc96d6a72f9c15b08fc4b9d11a4069f49",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/MappingChecks.cs",
+      "bytes": 10276,
+      "sha256": "5b5b9c6b01e02a63f7e2af0a6d5898e7408f6d8a2354f0cacc0671e704551faa",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/Program.cs",
+      "bytes": 31665,
+      "sha256": "e547eb079bc6f737e53f27cd7a8aca4f88497f782504d27a84b5074aaaece71d",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/QAStudio.Tests.csproj",
+      "bytes": 304,
+      "sha256": "75438ed1ccd35dd91662dfb95fa7f0f6272db31e727e010c5e1e908f8b4b1e97",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/ResultPackageChecks.cs",
+      "bytes": 8881,
+      "sha256": "0c7f7aa01a303115acac7df1f9f8a3b12f8649a0163a4791f4923d45f148bae4",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tests/QAStudio.Tests/SingleTextChecks.cs",
+      "bytes": 10980,
+      "sha256": "8f7b9a6779a38e35c2bf7d6c559fa5e224100ab53f83443e9e6956ababf7b422",
+      "classification": "qa-studio-source-and-tests"
+    },
+    {
+      "path": "tools/publish-desktop.ps1",
+      "bytes": 3053,
+      "sha256": "cd76014e7830d66297539e30ba6fda4ba7969752d50340b3296975848c4bd798",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "시작.cmd",
+      "bytes": 34,
+      "sha256": "4326a19cb5178375c3e1aa32de7a3a8d7924b78dd1f8ee46f498a3d09b43165e",
+      "classification": "build-and-config"
+    }
+  ]
+}
