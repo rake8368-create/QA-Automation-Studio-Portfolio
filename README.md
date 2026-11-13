@@ -1,5 +1,7 @@
 # QA Automation Studio
 
+[포트폴리오 PDF 열람](portfolio/QA_Automation_Studio_Portfolio.pdf)
+
 Windows 데스크톱 테스트의 설계, 실행, 판정과 증적을 연결하는 C# WinForms 프로젝트입니다. 공개본은 Sprint 4.1의 로컬 검증 완료 소스를 바탕으로 구성했습니다.
 
 ![Sprint 3.2 WinForms 메인 화면](reports/screenshots/WinForms_Main.png)

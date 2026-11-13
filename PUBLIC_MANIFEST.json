@@ -35,8 +35,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6825,
-      "sha256": "ce0d4524587048c3c08f8518fd8f1e653e3eda24fde451ba960c0a459acd1f7d",
+      "bytes": 6901,
+      "sha256": "1159fe0bee22180dcd6fce8c772ef7681ecce2424de362a744bf5a006d31c261",
       "classification": "public-documentation"
     },
     {
@@ -74,6 +74,12 @@
       "bytes": 945,
       "sha256": "38b514716bff96cd149a5be0e829c04c331601bc863a7ff2884c3a52f6391b31",
       "classification": "public-documentation"
+    },
+    {
+      "path": "portfolio/QA_Automation_Studio_Portfolio.pdf",
+      "bytes": 369023,
+      "sha256": "6d4ff3cd2572e13be7dfd90e21c262f372adc4352f67eeae82d524d100401446",
+      "classification": "validated-portfolio-pdf"
     },
     {
       "path": "reports/screenshots/Automation_Mapping.png",
