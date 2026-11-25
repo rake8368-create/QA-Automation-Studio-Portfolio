@@ -41,8 +41,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6901,
-      "sha256": "1159fe0bee22180dcd6fce8c772ef7681ecce2424de362a744bf5a006d31c261",
+      "bytes": 9071,
+      "sha256": "4072c660c161e96fe6c24b571265a236bccab5f7e058a3ec181d620a8b4579ce",
       "classification": "public-documentation"
     },
     {
@@ -53,32 +53,50 @@
     },
     {
       "path": "docs/ARCHITECTURE.md",
-      "bytes": 1377,
-      "sha256": "a2b68210e1a349a2f24b0b8398ebeb0792a949b19c3a73a157860c421c5016c0",
+      "bytes": 2434,
+      "sha256": "2b82ea77ce026ee91cd1605cba505340fc767c104f37b47077a75c938088a9f0",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "docs/DEFECT_CASE_STUDIES.md",
+      "bytes": 4843,
+      "sha256": "ccc5689bd6211f333f1163c1f1ea44b557a166fdbe087113f64d331d709d5945",
       "classification": "public-documentation"
     },
     {
       "path": "docs/EVIDENCE_INTEGRITY.md",
-      "bytes": 946,
-      "sha256": "406fb027494fa17c346c9c3fe27347a699182b27d2a308f1ce90204bd70f4237",
+      "bytes": 1685,
+      "sha256": "442a6b14efab6544e31a21ea97c91760b1a8f0d443549f49465a8b53880c6762",
       "classification": "public-documentation"
     },
     {
       "path": "docs/EXECUTION_RESULTS.md",
-      "bytes": 1297,
-      "sha256": "7318f53e678bce82db4c0b25035ca44c0453c4ec310c44c089e1c290b4fcd48e",
+      "bytes": 2015,
+      "sha256": "a6664b35fcb9b5cee185f078502265a685d138944aaec5e5cd21039d74d7f8c5",
       "classification": "public-documentation"
     },
     {
       "path": "docs/MANUAL_READINESS.md",
-      "bytes": 976,
-      "sha256": "d8a2adb58478ff6c29800012919cb63e9c2bbf6d6e10fc749dedde5f4482157b",
+      "bytes": 1389,
+      "sha256": "1a6fef9e18357d316033cf80662c08fb5d6e0e7e8bf2ceb28b69739cdf0a4cac",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "docs/QA_TEST_STRATEGY.md",
+      "bytes": 4011,
+      "sha256": "e31b0181a6b3221a15a184faf327cd1bae0c76f0993e91e7c531fcdcd587bb95",
       "classification": "public-documentation"
     },
     {
       "path": "docs/TEST_DESIGN.md",
-      "bytes": 945,
-      "sha256": "38b514716bff96cd149a5be0e829c04c331601bc863a7ff2884c3a52f6391b31",
+      "bytes": 1351,
+      "sha256": "5c05fb64bbfe2afc601cfe132053feeec3f5287e7bdd5365ae603fbdfa3bde2c",
+      "classification": "public-documentation"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 5171,
+      "sha256": "a740411aa1113844eabccd8772d047f06ebc991c9214579ed64fa6370234f36c",
       "classification": "public-documentation"
     },
     {
@@ -88,9 +106,51 @@
       "classification": "validated-portfolio-pdf"
     },
     {
+      "path": "portfolio/QA_Automation_Studio_Portfolio_Final.pdf",
+      "bytes": 617856,
+      "sha256": "c53a0aad249d68aff2cc9c5606d09b78a7dde4d366c95c1913ba6d94a623f63e",
+      "classification": "validated-portfolio-pdf"
+    },
+    {
       "path": "reports/screenshots/Automation_Mapping.png",
       "bytes": 78254,
       "sha256": "9120d5cc85550242c7ab94b0066848c78bd8a708aeec3b2f37ef779b02ba37e8",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/screenshots/Sprint41_Excel.jpg",
+      "bytes": 386934,
+      "sha256": "7896b68526a980480585980cd1430303e9970b1d19afda66c81945205de38a89",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/screenshots/Sprint41_Import.jpg",
+      "bytes": 185975,
+      "sha256": "569752b7ce311c66d7aaf93ca950c4f4ea66c641d61fff4a18fa99ed65f48f24",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/screenshots/Sprint41_Main.jpg",
+      "bytes": 214561,
+      "sha256": "87c9472dd9e257e7c3be9ae889722d461473913da52bdd2c5ecf20998c0dcf3c",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/screenshots/Sprint41_Manual.jpg",
+      "bytes": 135890,
+      "sha256": "53010e761f3c2185869151853c7c987e53f7176224557273c755abdebe01449f",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/screenshots/Sprint41_Mapping.jpg",
+      "bytes": 67941,
+      "sha256": "d3bfb6072451dfe06d9899d0230f63a7c3db7771a2e77097db0f1b3962b367c8",
+      "classification": "screen-capture-redacted"
+    },
+    {
+      "path": "reports/screenshots/Sprint41_NotRun.jpg",
+      "bytes": 163235,
+      "sha256": "361e0d40eaf14d975f09c3b5ef0beede11fbc11aca19446eb8911cdad173e01c",
       "classification": "screen-capture-redacted"
     },
     {

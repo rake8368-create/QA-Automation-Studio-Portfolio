@@ -10,3 +10,5 @@
 | REVIEW_REQUIRED | 6 | 대상 버전의 기능이나 판정 기준 확인 |
 
 격리 GUI 검증에서 `MAC-016`은 중복 실행 경고 및 두 번째 프로세스 종료, `QAT-001`은 XLSX 열 매핑 및 중복 저장 차단, `QAT-003`은 미실행 TC의 NOT RUN 유지를 확인했습니다. 세 건은 각각 PASS로 기록했고 운영 수동 이력은 0건입니다. 나머지 68건의 개별 전체 절차는 미검증입니다. [수동 테스트 설계 워크북](../test-data/QAStudio_Manual_TestCases_71_EN.xlsx)
+
+준비도는 테스트를 실행하기 위해 필요한 조건입니다. 수동 실행 결과나 미해결 결함 수는 [실행 집계](EXECUTION_RESULTS.md)에서 확인합니다. 역사 스냅샷을 사용하는 수동 자동 회귀와 이번 공개 CI의 범위도 각각 기록했습니다. [수동 회귀 하니스](../tests/QAStudio.Tests/ManualSprintChecks.cs) · [공개 검증 범위](VERIFICATION.md)

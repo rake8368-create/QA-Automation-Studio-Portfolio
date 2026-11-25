@@ -8,3 +8,5 @@
 | 동등 분할 | `AUD-002` | 사용자 정의 분·초 값으로 3분 59초를 적용합니다. 변수 누락이나 문자열 오염 없이 치환돼야 합니다. |
 
 위 표는 설계 예시입니다. 실제 F3 E2E 결과는 각 Run의 증적에서 확인할 수 있습니다. [TC 설계 샘플](../test-data/QA_Automation_Portfolio_TC_70.xlsx) · [71건 수동 워크북](../test-data/QAStudio_Manual_TestCases_71_EN.xlsx) · [실제 E2E 증적](../reports/submission-evidence/INDEX.md)
+
+공개 XLSX의 70건은 설계 표본이며, 기본 하니스는 원래 17개 필드와 설계 내용을 왕복 비교합니다. 70건의 제품 TC에 새 판정을 쓰지 않습니다. 상태 전이·동등 분할 등 설계 기법과 제품 자체 테스트 소스의 관계를 정리했습니다. [QA 테스트 전략](QA_TEST_STRATEGY.md) · [하니스 원본](../tests/QAStudio.Tests/Program.cs#L84)
