@@ -10,6 +10,12 @@
       "classification": "build-and-config"
     },
     {
+      "path": ".github/workflows/windows-qa.yml",
+      "bytes": 2372,
+      "sha256": "b3ca0be5b97e7f28c40c86096c2633cdc050f3e99b35ec3f21fc7743b73856fc",
+      "classification": "build-and-config"
+    },
+    {
       "path": ".gitignore",
       "bytes": 607,
       "sha256": "26b9e59160c61ab33cf1de202665002f78fb882e5f6393f755070789046e2d6d",
@@ -412,9 +418,33 @@
       "classification": "qa-studio-source-and-tests"
     },
     {
+      "path": "tools/QAStudio.PublicFixture/Program.cs",
+      "bytes": 1790,
+      "sha256": "d4af894978d550ca25600e986f1e82846ba0830d78d3764e15c230df24529452",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "tools/QAStudio.PublicFixture/QAStudio.PublicFixture.csproj",
+      "bytes": 333,
+      "sha256": "e567d61c9953699eebd6d42ecf9914961e33f0cc6132c80bab972749bff85a40",
+      "classification": "build-and-config"
+    },
+    {
       "path": "tools/publish-desktop.ps1",
       "bytes": 3053,
       "sha256": "cd76014e7830d66297539e30ba6fda4ba7969752d50340b3296975848c4bd798",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "tools/verify-public.ps1",
+      "bytes": 3159,
+      "sha256": "90a5a81337131e01933f6df5ec230e7c4702576b9e6b53335612c45f0d074962",
+      "classification": "build-and-config"
+    },
+    {
+      "path": "tools/verify-public.py",
+      "bytes": 9715,
+      "sha256": "06ae22e5ada6dda8ff87a3e5bf2cce6c297678b7ebc4b39b8f89f7832f560aef",
       "classification": "build-and-config"
     },
     {

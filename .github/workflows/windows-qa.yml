@@ -1,0 +1,58 @@
+name: Windows QA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-qa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: '1'
+      DOTNET_GENERATE_ASPNET_CERTIFICATE: 'false'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@0f4a354dd5547a28c70b7853dbd95d5b67886e73 # v6.1.0
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+      - name: Verify public snapshot and historical evidence hashes
+        run: python tools/verify-public.py manifest
+      - name: Release, executable harness, SQLite, result package and published EXE
+        shell: pwsh
+        run: ./tools/verify-public.ps1 -OutputDirectory (Join-Path $env:RUNNER_TEMP "qastudio-$env:GITHUB_RUN_ID-$env:GITHUB_RUN_ATTEMPT")
+      - name: Record verified public counts
+        shell: pwsh
+        run: |
+          $report = Join-Path $env:RUNNER_TEMP "qastudio-$env:GITHUB_RUN_ID-$env:GITHUB_RUN_ATTEMPT/qa-summary.json"
+          $result = Get-Content -LiteralPath $report -Raw | ConvertFrom-Json
+          @(
+            '## QA Automation Studio'
+            "- Executable harness: $($result.executableHarness.passed) PASS"
+            "- Published EXE import verification: $($result.publishedExeImport.passed) PASS"
+            "- Result package fixture: $($result.resultPackageFixture)"
+            "- SQLite v$($result.sqliteSchema) integrity: $($result.sqliteIntegrity)"
+            "- Historical public F3 copies verified by hash: $($result.publicHistoricalF3CopiesVerified)"
+            "- Real F3 executed by CI: $($result.realF3RunsExecutedInCi)"
+          ) | Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY -Encoding utf8
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: public-qa-summary
+          path: ${{ runner.temp }}/qastudio-${{ github.run_id }}-${{ github.run_attempt }}/qa-summary.json
+          if-no-files-found: error
+          retention-days: 14
